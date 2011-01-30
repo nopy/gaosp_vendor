@@ -1,4 +1,4 @@
-include $(call all-named-subdir-makefiles, libcamera libsensors akmd_free)
+include $(call all-named-subdir-makefiles, libcamera libsensors akmd_free qcom)
 
 #Android makefile to build kernel as a part of Android Build
 #Its here and not under gaosp-kernel/ for compatiblity with the froyo branch
